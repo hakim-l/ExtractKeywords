@@ -1,0 +1,7 @@
+selenium
+requests
+urllib3
+bs4
+torch
+sentence-transformers
+keybert
