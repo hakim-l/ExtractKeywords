@@ -1,5 +1,6 @@
 # Intro
-To complete the task, I utilized 
+To complete the task, I utilized pretrained deep learning model.
+For the assignment, I used multi-qa-mpnet-base-dot-v1 sentence transformer through sentence-transformer and keybert library.
 
 The multi-qa-mpnet-base-dot-v1 model is part of the sentence-transformers library. It serves as a powerful tool for semantic search, mapping sentences and paragraphs to a 768-dimensional dense vector space. Here are some key details about this model:
 Purpose: Designed specifically for semantic search.
@@ -11,6 +12,7 @@ Vector Space Dimension: The model maps text to a 768-dimensional vector space.
 `
 pip install -r requirements.txt
 `
+
 2. Prepare the input text data by save it to data/input_text.txt
 3. To get keywords run following command\
 `
