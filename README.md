@@ -7,6 +7,11 @@ Purpose: Designed specifically for semantic search.
 Training Data: Trained on an impressive 215 million (question, answer) pairs from diverse sources.
 Vector Space Dimension: The model maps text to a 768-dimensional vector space.
 
+# Project structure
+1. data -> directory where the input data is located
+2. src -> contains script that process the input (text data) and extract keywords from the given text data
+3. main.py -> program entry point
+
 # Instruction
 1. Install the required packages with following command\
 `
